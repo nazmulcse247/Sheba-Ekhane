@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "573354944943",
+    "firebase_url": "https://sheba-ekhane.firebaseio.com",
+    "project_id": "sheba-ekhane",
+    "storage_bucket": "sheba-ekhane.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:573354944943:android:68fa17c3a70d07bde6e75a",
+        "android_client_info": {
+          "package_name": "com.example.shebaekhane"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "573354944943-5vpihh7bh1jv1i4kusjl6tpet1p6lpid.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeElmf3WWaNMhC8ofkS68_CS5hKEhCM9A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "573354944943-5vpihh7bh1jv1i4kusjl6tpet1p6lpid.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

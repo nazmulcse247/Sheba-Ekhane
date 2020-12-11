@@ -13,6 +13,10 @@
         <action
             android:id="@+id/action_authenticationFragment_to_registerFragment"
             app:destination="@id/registerFragment" />
+        <action
+            android:id="@+id/action_authenticationFragment_to_userLocationFragment"
+            app:destination="@id/userLocationFragment"
+             />
     </fragment>
     <fragment
         android:id="@+id/homeFragment"
@@ -22,10 +26,36 @@
         <action
             android:id="@+id/action_homeFragment_to_authenticationFragment"
             app:destination="@id/authenticationFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_addServiceMan"
+            app:destination="@id/addServiceMan" />
     </fragment>
     <fragment
         android:id="@+id/registerFragment"
         android:name="com.example.shebaekhane.RegisterFragment"
         android:label="fragment_register"
-        tools:layout="@layout/fragment_register" />
+        tools:layout="@layout/fragment_register" >
+        <action
+            android:id="@+id/action_registerFragment_to_userLocationFragment"
+            app:destination="@id/userLocationFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/userLocationFragment"
+        android:name="com.example.shebaekhane.UserLocationFragment"
+        android:label="fragment_user_location"
+        tools:layout="@layout/fragment_user_location" >
+        <action
+            android:id="@+id/action_userLocationFragment_to_serviceCategoryFragment"
+            app:destination="@id/serviceCategoryFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/serviceCategoryFragment"
+        android:name="com.example.shebaekhane.ServiceCategoryFragment"
+        android:label="fragment_service_category"
+        tools:layout="@layout/fragment_service_category" />
+    <fragment
+        android:id="@+id/addServiceMan"
+        android:name="com.example.shebaekhane.AddServiceMan"
+        android:label="fragment_add_service_man"
+        tools:layout="@layout/fragment_add_service_man" />
 </navigation>

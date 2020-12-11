@@ -50,5 +50,12 @@ public class HomeFragment extends Fragment {
             }
         });
 
+        binding.btnService.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Navigation.findNavController(view).navigate(R.id.action_homeFragment_to_addServiceMan);
+            }
+        });
+
     }
 }
